@@ -1,0 +1,76 @@
+header {
+    background-color: transparent;
+    position: absolute;
+}
+
+main section:nth-child(1) {
+    height: 100vh;
+    background-image: url("../img/bg_home.jpg");
+    background-size: cover;
+    overflow:hidden;
+}
+
+main .home-text, main .home-buttons {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+main .home-text {
+    margin-top: 20%;
+}
+
+main .home-buttons {
+    margin-top: 15px;
+}
+
+main .home-text h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+main .home-buttons div {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 15px;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main .home-buttons div:nth-child(1) {
+    background-color: #fd6863;
+    border: solid 1px #fd6863;
+}
+
+main .home-buttons div:nth-child(1):hover {
+    background-color: #fff;
+    color: #fd6863;
+    border-color: #fff;
+}
+
+main .home-buttons div:nth-child(2) {
+    border: solid 1px #fff;
+}
+
+main .home-buttons div:nth-child(2):hover {
+    background-color: #fd6863;
+    color: #fff;
+    border-color: #fd6863;
+}
+
+main section:nth-child(2) {
+    height: 300px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+main section:nth-child(2) h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+main section:nth-child(2) .red-line {
+    margin-bottom: 25px;
+}

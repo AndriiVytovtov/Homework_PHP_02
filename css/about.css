@@ -1,0 +1,22 @@
+main section {
+    min-height: 300px;
+    text-align: center;
+}
+
+main section h1 {
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+main section .red-line {
+    margin: 15px;
+}
+
+main section .about-text {
+    text-align: justify;
+    padding: 10px;
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}

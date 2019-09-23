@@ -1,0 +1,9 @@
+main {
+    text-align: center;
+    height: calc(100vh - 400px);
+    padding-top: 200px;
+}
+
+main h1 {
+    font-size: 100px;
+}
